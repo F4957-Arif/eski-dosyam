@@ -1,4 +1,4 @@
-package j16_ArraysList;
+package j16_ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;

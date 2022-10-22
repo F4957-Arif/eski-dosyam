@@ -1,4 +1,4 @@
-package j16_ArraysList;
+package j16_ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,5 +13,6 @@ public class C06_set {
 
         // System.out.println(listSehir.set(11, "pataGONYA"));//olmayan index set edilirse RET veririr.
         System.out.println("listSehir = " + listSehir);
+        //Listsehir set(1,"bursa", 2, "izmir");-->list te coklu set metodu calsımaz bu INTERVİEV sorusu CTE verır
     }
 }

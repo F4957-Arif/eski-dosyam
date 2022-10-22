@@ -1,4 +1,4 @@
-package j12_Loops.L01_ForLoop;
+package j12_Loops.L01_ForLoop.TASK;
 
 public class C03_NestedForLoop {
     public static void main(String[] args) {

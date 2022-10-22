@@ -1,2 +1,22 @@
-package j16_ArraysList;public class C09_equals {
+package j16_ArrayList;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class C09_equals {
+    public static void main(String[] args) {
+        //equals();-->iki listen ındex ve eleman eşitliğini return ederTrue/False return eder
+        //equals(); -> iki listin index ve elelman eşitliğini montrol eder true/false return
+
+        ArrayList<String> lis1=new ArrayList<>(Arrays.asList("a","b"));
+        ArrayList<String> lis2=new ArrayList<>(Arrays.asList("A","b"));
+        ArrayList<String> lis3=new ArrayList<>(Arrays.asList("a","b"));
+        ArrayList<String> lis4=new ArrayList<>(Arrays.asList("b","a"));
+
+        System.out.println("lis1.equals(lis3) = " + lis1.equals(lis3));//true
+        System.out.println("lis2.equals(lis3) = " + lis2.equals(lis3));//false
+        System.out.println("lis1.equals(lis2) = " + lis1.equals(lis2));//false
+        System.out.println("lis1.equals(lis4) = " + lis1.equals(lis4));//false
+        //tıpa tıp aynıysa true.hem sıraya hem degere hem karekterere herseye bakar
+    }
 }

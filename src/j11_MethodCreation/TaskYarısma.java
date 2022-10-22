@@ -21,3 +21,4 @@ public class TaskYarısma {
      *          kullanicilarin puanlarini ve kazanan oyuncuyu yazdirin
      */
 }
+

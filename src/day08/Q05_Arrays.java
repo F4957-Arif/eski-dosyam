@@ -1,2 +1,27 @@
-package day08;public class Q05_Arrays {
+package day08;
+
+import java.util.Scanner;
+
+public class Q05_Arrays {
+    /*
+  Kullanicidan aldigimiz 8 elemanli arrayin icinde
+  kac tane 3 e bolunebilen sayi vardir ?(negatif sayilar da dahil olsun)
+ */
+    public static void main(String[] args) {
+        int arr[]=new int[8];
+        Scanner scanner =new Scanner(System.in);
+        int count=0;//sayac 3 e bolunebılen eleman sayısını temsıl edıyor
+        for (int i = 0; i <arr.length ; i++) {
+            System.out.print(i+ " indextekteki elemanı giriniz: ");
+            arr[i]=scanner.nextInt();
+            if (arr[i]%3==0){
+                System.out.println(arr[i]);
+                count++;
+            }
+
+        }
+        System.out.println("count = " + count);
+
+
+    }
 }

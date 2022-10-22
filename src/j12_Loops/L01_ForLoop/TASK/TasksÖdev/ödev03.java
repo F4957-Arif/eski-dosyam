@@ -2,7 +2,7 @@ package j12_Loops.L01_ForLoop.TASK.TasksÖdev;
 
 import java.util.Scanner;
 
-public class Odev03 {
+public class ödev03 {
     public static void main(String[] args) {
         /* Kullanıcıdan aldığımız sayının, asal olup olmadığını return eden
          * bir method create ediniz.

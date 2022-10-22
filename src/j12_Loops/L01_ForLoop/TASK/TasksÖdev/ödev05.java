@@ -2,7 +2,7 @@ package j12_Loops.L01_ForLoop.TASK.TasksÖdev;
 
 import java.util.Scanner;
 
-public class Odev05 {
+public class ödev05 {
 
     public static void main(String[] args) {
          /*
