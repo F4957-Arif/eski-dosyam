@@ -58,6 +58,6 @@ Dizide tutulacak veri tipleri aynı olmak zorundadır farklı veri tiplerini ayn
 
         //MultiDimensional Array'lerde istenen bir eleman nasil yazdirilir.
         System.out.println(Arrays.toString(arr));//[[I@7c75222b, [I@1cd072a9, [I@4c203ea1]
-        System.out.println(Arrays.deepToString(arr));//[[1, 2, 3], [10, 20], [101]]​
+        System.out.println(Arrays.deepToString(arr));//[[1, 2, 3], [10, 20], [101]]
     }
 }

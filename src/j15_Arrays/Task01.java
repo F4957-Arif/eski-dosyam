@@ -14,7 +14,7 @@ public class Task01
         System.out.print("agam kaç elemanlı array istirsen : ");
         int arrBoyut = sc.nextInt();
 
-        int arr[] = new int[arrBoyut];//boyutu belirlenmiş boş int array​
+        int arr[] = new int[arrBoyut];//boyutu belirlenmiş boş int array
         for (int i = 0; i < arrBoyut; i++) {
             System.out.print(i + ". index  elemanı giriniz : ");
             arr[i] = sc.nextInt();
