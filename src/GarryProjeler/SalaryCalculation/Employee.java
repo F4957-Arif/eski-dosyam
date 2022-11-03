@@ -1,4 +1,4 @@
-package SalaryCalculation;
+package GarryProjeler.SalaryCalculation;
 
 public class Employee {
 /*

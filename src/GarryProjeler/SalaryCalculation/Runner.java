@@ -1,4 +1,6 @@
-package SalaryCalculation;
+package GarryProjeler.SalaryCalculation;
+
+import GarryProjeler.SalaryCalculation.Employee;
 
 public class Runner {
     public static void main(String[] args) {
