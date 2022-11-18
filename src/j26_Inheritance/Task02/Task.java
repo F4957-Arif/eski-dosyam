@@ -1,4 +1,4 @@
-package j26_Inheritance.Task;
+package j26_Inheritance.Task02;
 
 public class Task {
     /*

@@ -1,9 +1,12 @@
 package j26_Inheritance.Inheritance02;
 
 public class Hayvancık {
-    public Hayvancık(int i) {//p'siz cons.
+    public Hayvancık(){//p,siz cons
+        System.out.println("Agam ahan da HAYVANCIK p,siz cons");
+    }
+    public Hayvancık(int i) {//p'li cons.
 
-        System.out.println("Agam ahan da HAYVANCIK p'siz cons...");
+        System.out.println("Agam ahan da HAYVANCIK p'li cons...");
     }
 
 

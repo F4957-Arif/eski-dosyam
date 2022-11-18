@@ -2,11 +2,11 @@ package j26_Inheritance.Inheritance02;
 
 public class Mammal extends Hayvancık {
     public Mammal() {//p'siz cons
-        this('Y');
+        this('Y');//bu class ın paremetrelı cons call edıldı
         System.out.println("Agam ahan da Mammal p'siz cons...");
     }
     public Mammal(char c) {//p'li cons
-        super(17);
+        super(17);//parent Hayvancık plas paremetrelı cons call edıldı
         System.out.println("Agam ahan da Mammal p'li cons...");
     }
     public void mC(){
